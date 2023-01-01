@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="../js/usuario.js"></script>
+    <title>Agregar Usuario</title>
+</head>
+<body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"> Inicio </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accesos
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="../Cliente/lista_clientes.html">Lista Clientes</a></li>
+                  <li><a class="dropdown-item" href="../Resultado/lista_resultados.html">Lista Resultado</a></li>
+                  <li><a class="dropdown-item" href="../Tipo Gestion/lista_tipos_gestiones.html">Lista Tipos de Gestiones</a></li>
+                  <li><a class="dropdown-item" href="../Usuario/lista_usuarios.html">Lista Usuarios</a></li>
+                  <li><a class="dropdown-item" href="../Gestión/lista_gestiones.html">Lista Gestiones</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+          <!-- Formulario de ingreso-->
+          <H1>Agregar Usuario</H1>
+          <form>
+            <div class="mb-3">
+                <!-- RUT -->
+              <label for="txt_id_usuario" class="form-label">RUT</label>
+              <input type="text" class="form-control" id="txt_id_usuario" aria-describedby="txt_id_usuario_Help">
+              <div id="txt_id_usuario_Help" class="form-text">RUT del cliente</div>
+            </div>
+            <div class="mb-3">
+                <!-- DV -->
+              <label for="txt_dv" class="form-label">DV</label>
+              <input type="text" class="form-control" id="txt_dv" aria-describedby="txt_dv_Help">
+              <div id="txt_dv_Help" class="form-text">Dígito Verificador</div>
+            </div>
+            <div class="mb-3">
+                <!-- Nombres -->
+              <label for="txt_nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="txt_nombres" aria-describedby="txt_nombres_Help">
+              <div id="txt_nombres_Help" class="form-text">Nombres del cliente</div>
+            </div>
+            <div class="mb-3">
+                <!-- Apellidos -->
+              <label for="txt_apellidos" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="txt_apellidos" aria-describedby="txt_apellidos_Help">
+              <div id="txt_apellidos_Help" class="form-text">Apellidos del cliente</div>
+            </div>
+            <div class="mb-3">
+                <!-- RUT -->
+              <label for="txt_email" class="form-label">Email</label>
+              <input type="text" class="form-control" id="txt_email" aria-describedby="txt_email_Help">
+              <div id="txt_email_Help" class="form-text">Correo electrónico</div>
+            </div>
+            <div class="mb-3">
+                <!-- Celular -->
+              <label for="txt_celular" class="form-label">Celular</label>
+              <input type="text" class="form-control" id="txt_celular" aria-describedby="txt_celular_Help">
+              <div id="txt_celular_Help" class="form-text">Celular</div>
+            </div>
+            <div class="mb-3">
+              <!-- Username -->
+            <label for="txt_username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="txt_username" aria-describedby="txt_username_Help">
+            <div id="txt_username_Help" class="form-text">Username</div>
+            </div>
+            <div class="mb-3">
+              <!-- Pasword -->
+            <label for="txt_pasword" class="form-label">Pasword</label>
+            <input type="password" class="form-control" id="txt_password" aria-describedby="txt_password_Help">
+            <div id="txt_password_Help" class="form-text">Pasword</div>
+            </div>
+            <div class="mb-3">
+                <!-- Fecha de Registro -->
+              <label for="txt_fecha_registro" class="form-label">Fecha de Registro</label>
+              <input type="datetime-local" class="form-control" id="txt_fecha_registro" aria-describedby="txt_fecha_registro_Help">
+              <div id="txt_fecha_registro_Help" class="form-text">Fecha de Registro</div>
+            </div>
+                           
+                          
+   
+            <button type="button" class="btn btn-primary" onclick="agregar_usuario();":>Agregar</button>
+            <a href="../Usuario/lista_usuarios.html"  class="btn btn-warning" oneclick=javascript:history.back()>Volver</a>
+          </form>
+
+    </div>
+    
+</body>
+</html>

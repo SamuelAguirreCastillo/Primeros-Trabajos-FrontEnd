@@ -1,0 +1,82 @@
+.fondo_superior{ 
+   top: 100%;
+   height: 100%;
+   width: 100%;
+   bottom: 100%;
+   background-image: url("../img/fondoPagina.png");  
+ }
+.fondo_completo{
+   background-image: url(../img/luces.png);
+}
+ .carousel-inner{
+   height: 70%;
+   width: 70%;
+   margin-left: 185px;
+   padding-top: 20px;
+ }
+
+#galas h5 {
+   background-color: black;
+}
+#galas p{
+   background-color: black;
+}
+#conciertos h5{
+   background-color: black;
+}
+#conciertos p{
+   background-color: black;
+}
+#bodas h5{
+   background-color: black;
+}
+#bodas p{
+   background-color: black;
+}
+#texto{
+   margin-top: 20px;
+   border-style:dotted;
+   border-color: rgb(118, 20, 255);
+   border-radius: 20px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   height: 25%;
+} 
+#cnt_informacion_servicios{
+   border-style: dashed;
+   border-color: white;
+   border-radius: 20px;
+}
+#tarjetas{
+   margin-top: 20px;
+}
+#montajes{
+   margin-top: 60px;
+}
+#col4{
+   margin-top: 10px
+}
+#col5{
+   margin-top: 10px;
+}
+#col6{
+   margin-top: 10px;
+}
+#col7{
+   margin-top: 10px;
+}
+#col8{
+   margin-top: 10px;
+}
+.fondo_completo{
+   padding-bottom: 20px;
+}
+#formulario_superior{
+   margin-top: 60px;
+}
+#video{
+   margin-right: 30px;
+}
+#footer{
+   margin-top: 20px;
+   width: 100%;
+}

@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title> Calculando el Peso ideal</title>
+        <link rel="stylesheet" href="css/principal_formulario.css"></link>
+        <script src="js/funciones.js" lenguage="javascript"></script>
+    </head>
+    <body>
+        <!-- Contenedor Principal -->
+        <div id="cnt_principal">
+            <!-- Contenedor Superior -->
+            <div id="cnt_superior">
+                <h1>Calculando el peso ideal</h1>
+                <h2>Ingrese los datos solicitados</h2>
+                <hr>
+            </div>
+            <!-- Contenedor Formulario -->
+            <div id="cnt_formulario">
+                <form id="frm_peso_ideal">
+                    <table border="0">
+                        <tr>
+                            <td> <Leable>Edad</Leable></td>
+                            <td> <input type="text" id="txt_edad" placeholder="Edad entre 1 y 10"></td>                       
+                        </tr>
+                        <tr>
+                            <td> <Leable>Peso actual</Leable></td>
+                            <td> <input type="text" id="txt_peso_actual" placeholder="Peso en Kgs."></td>                       
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td> <input type="button" id="btn_calcular" value="calcular" onclick="calcularPesoIdeal();"></td>
+                        </tr>
+                    </table>
+                </form>
+
+            </div>
+            <!-- Contenedor Resultado -->
+            <div id="cnt_resultado"></div>
+            <!--Contenedor estado peso-->
+            <div id="cnt_estado_peso"></div>
+            <!--Contenedor imagen-->
+            <div id="cnt_imagen_estado"></div>
+        </div>
+    </body>
+</html>

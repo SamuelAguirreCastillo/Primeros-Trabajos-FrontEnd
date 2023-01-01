@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1, h2 {
+    color: #0c0000;
+    text-align: center;
+  }
+  #cnt_superior {
+      background-color: aliceblue;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+  }
+  #cnt_central {
+      background-color: black;
+      text-align: center;
+  }
+  #cnt_inferior {
+      background-color: rgb(250, 4, 25);
+      text-align: center;
+  }
+  

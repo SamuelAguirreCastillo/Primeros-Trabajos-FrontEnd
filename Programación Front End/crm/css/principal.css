@@ -1,0 +1,34 @@
+body{ 
+  background-size: cover;
+  background-image: url("../img/fondo.png"); 
+  }
+  .list-group{
+    margin-top: 5%;
+    padding-left:560px;
+}
+.btn-primary {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 30px;
+  border-radius: 100px;
+  background: gray;
+  border: none;
+  position: relative;
+  top: -9px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.btn{
+  width: 19.62%;
+  padding: 0.5rem 1rem;
+  background-color:#2ab90e;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+

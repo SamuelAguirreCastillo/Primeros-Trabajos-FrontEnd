@@ -1,0 +1,27 @@
+body {
+background-color: aquamarine;
+}
+h1 {
+color: black;
+text-align: center;
+}
+h2 {
+color: darkorange;
+text-align: center;
+}
+#cnt_superior {
+    background-color: rgb(252, 255, 240);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+#cnt_formulario {
+    background-color: rgb(180, 102, 7);
+    text-align: center;
+}
+#cnt_resultado{
+    background-color: blueviolet;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
